@@ -251,6 +251,7 @@ h6 {
     padding: 20px 10px;
     position: fixed;
     overflow-x: hidden;
+    z-index: 1;
 }
 
 .y_btn a {
@@ -372,7 +373,7 @@ h6 {
 /* youtube shorts */
 
 /* shorts logo */
-.youtube_shorts{
+.youtube_shorts {
     display: flex;
     justify-content: center;
     width: 96%;
@@ -381,7 +382,7 @@ h6 {
     overflow-x: hidden;
 }
 
-.shorts_logo{
+.shorts_logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -389,12 +390,12 @@ h6 {
     height: fit-content;
 }
 
-.shorts_logo img{
+.shorts_logo img {
     height: 30px;
     width: 30px;
 }
 
-.shorts_logo a{
+.shorts_logo a {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -402,26 +403,26 @@ h6 {
     color: #fff;
 }
 
-.shorts_logo span{
+.shorts_logo span {
     font-size: 18px;
     font-weight: 600;
 }
 
-.cancel_icon{
+.cancel_icon {
     display: flex;
     align-items: center;
 }
 
-.cancel_icon a{
+.cancel_icon a {
     text-decoration: none;
 }
 
-.cancel_icon a i{
+.cancel_icon a i {
     font-size: 22px;
 }
 
 /* shorts videos */
-.shorts_video{
+.shorts_video {
     display: flex;
     justify-content: center;
     width: 96%;
@@ -430,26 +431,26 @@ h6 {
     padding-bottom: 10px;
 }
 
-.shorts_box{
+.shorts_box {
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: fit-content;
 }
 
-.shorts{
+.shorts {
     display: flex;
     flex-direction: column;
     width: 250px;
     height: fit-content;
 }
 
-.shorts_img img{
+.shorts_img img {
     width: 100%;
     border-radius: 10px;
 }
 
-.shorts_content{
+.shorts_content {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -457,13 +458,13 @@ h6 {
 
 }
 
-.shorts_content p{
+.shorts_content p {
     color: #fff;
     font-size: 15px;
     font-weight: 600;
 }
 
-.shorts_content span{
+.shorts_content span {
     font-size: 14px;
     font-weight: 500;
     color: #aaaaaa;
