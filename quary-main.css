@@ -1,0 +1,121 @@
+/* laptop */
+@media (min-width:800px) and (max-width:1400px) {
+    .y_btn a {
+        white-space: nowrap;
+    }
+
+    .chicken_v {
+        display: none;
+    }
+
+    .balveer {
+        display: none;
+    }
+
+    .bhag {
+        display: none;
+    }
+
+    .exam {
+        display: none;
+    }
+
+    .the-boy{
+        display: none;
+    }
+
+    .kids{
+        display: none;
+    }
+
+}
+
+/* mobile */
+@media (min-width:300px) and (max-width:800px) {
+
+    /* videos page */
+    .videos_page {
+        margin-left: 0px;
+    }
+
+    .y_btn a {
+        white-space: nowrap;
+    }
+
+    .y_btn a:hover {
+        display: none;
+    }
+
+    .video_link {
+        gap: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .video_link2 {
+        gap: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+    }
+
+    .video_box {
+        width: 100%;
+    }
+
+    .video_img img {
+        border-radius: 0px;
+    }
+
+    .video_content {
+        padding: 5px 10px;
+    }
+
+    .shorts_box{
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+
+    .shorts{
+        width: 160px;
+        position: relative;
+    }
+
+    .shorts_content{
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .shorts_video{
+        width: 100%;
+    }
+
+    .shorts_content p{
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+    .shorts_content span{
+        display: none;
+    }
+
+    .the-boy{
+        display: none;
+    }
+
+    .kids{
+        display: none;
+    }
+
+    .video_link3 {
+        gap: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+    }
+
+    .video_link4{
+        display: none;
+    }
+}

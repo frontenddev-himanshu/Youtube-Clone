@@ -1,0 +1,60 @@
+/* laptop */
+@media (min-width:800px) and (max-width:1400px) {
+    .y_search input {
+        width: 400px;
+    }
+
+    .y_asidenav{
+        width: 10vh;
+    }
+}
+
+/* mobile */
+@media (min-width:300px) and (max-width:800px) {
+
+    /* navbar */
+
+    /* main navbar */
+    .y_nav {
+        padding: 0px 20px;
+    }
+
+    .y_logo button {
+        display: none;
+    }
+
+    .y_search {
+        display: none;
+    }
+
+    .res-srch {
+        display: block;
+    }
+
+    .y_user {
+        gap: 10px;
+    }
+
+    .y_user .user {
+        display: none;
+    }
+
+    .y_user .fa-user {
+        display: none;
+    }
+
+    .y_user a {
+        font-size: 16px;
+    }
+
+    .live {
+        display: block;
+    }
+
+    /* aside navbar */
+    .y_asidenav {
+        display: none;
+    }
+
+    /* end */
+}
